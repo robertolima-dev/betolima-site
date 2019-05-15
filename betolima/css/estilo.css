@@ -1,0 +1,205 @@
+body, html {
+	font-family: Open Sans;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background: url(app/img/bg3.jpg) top;
+}
+
+#menu {
+	background: rgba(255,255,255,0.9);
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 1;
+  	-webkit-box-shadow: 0px 3px 19px -6px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 3px 19px -6px rgba(0,0,0,0.8);
+	box-shadow: 0px 3px 19px -6px rgba(0,0,0,0.8);
+}
+
+#menu a {
+	color: #454545;
+}
+
+#menu button {
+	color: #454545;
+	border: 2px solid #454545;
+}
+
+#capa {
+	margin-top: 53px;
+}
+
+#portf {
+	padding-top: 50px;
+}
+
+h2 {
+	font-size: 1.4em;
+}
+
+h6 {
+	font-size: 0.8em;
+}
+
+#rodape {
+	background: #656564;
+	padding: : 100px 20px;
+}
+
+#rodape i {
+	font-size: 1.5em;
+	color: white;
+}
+
+#rodape a {
+	color: white;
+}
+
+.footer {
+	background: #494948; 
+}
+
+#section-home img {
+	border: 3px solid #ccc;
+}
+
+#quero {
+	margin-top: 50px;
+}
+
+li {
+	list-style: none;
+}
+
+#contact i {
+	font-size: 1.5em;
+}
+
+#contact span {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+#contact li {
+	padding: 15px;
+}
+
+#contact a {
+	text-decoration: none;
+	color: #494949;
+}
+
+#contact {
+	margin-bottom: 50px;
+}
+
+#mestres .mestres {
+	margin: 20px 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+}
+
+#mestres li {
+	padding: 0.4em;
+}
+
+#mestres {
+	margin: 100px 0 50px 0;
+}
+
+#mestre {
+	margin: 50px 0;
+}
+
+
+
+
+/*/ Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.formulario {
+		margin: 30px;
+	}
+	p {
+		font-size: 0.9em;
+	}
+	a {
+		font-size: 0.9em;
+	}
+	.home-text {
+		text-align: center;
+	}
+	.home-text h2 {
+		margin-top: 25px;
+	}
+}
+
+/*/ Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.formulario {
+		margin: 50px;
+	}
+	.home-text {
+		text-align: center;
+	}
+	#section-home img {
+	width: 100%;
+	}
+	.home-text h2 {
+		margin-top: 35px;
+	}
+	
+}
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.formulario {
+		width: 55%;
+	}
+	.home-text {
+		padding: 20px;
+	}
+	.home-text h2 {
+		margin-top: 35px;
+	}
+	
+}
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.formulario {
+		width: 55%;
+	}
+	#portfolio .card {
+		margin: 50px 100px;
+	}
+	.home-text {
+		padding: 50px;
+	}
+
+}
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.formulario {
+		width: 55%;
+	}
+	#portfolio .card {
+		margin: 50px 150px;
+	}
+	.home-text {
+		padding: 50px;
+	}
+	
+}
+
+
+
+
+
+
+
